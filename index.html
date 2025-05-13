@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadorinha</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Mini-Calculadora</h1>
+        <div class="div-inputs">
+            <input type="number" id="primeiro-numero">
+            <div class="div-sinais"><img src="imagens/imagemAdição.png" alt="Imagem Adição" id="imagem-sinais"></div>
+            <input type="number" id="segundo-numero">
+            <div class="div-igual" ><img src="imagens/imagemIgual.png" alt="Imagem Igual"></div>
+            <input type="number" id="mostrar-numero" class="espacamento-maior">
+        </div>
+        
+
+        <div class="div-botoes">
+            <button onclick="botaoAdicao()">Adição</button>
+            <button onclick="botaoSubtracao()">Subtração</button>
+            <button onclick="botaoMultiplicacao()">Multiplicação</button>
+            <button onclick="botaoDivisao()">Divisão</button>
+        </div>
+    </main>
+    
+    <script src="app.js"></script>
+</body>
+</html>

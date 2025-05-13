@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to top, #634ba6, #533e97, #433088, #342378, #241669);
+    height: 100vh;
+
+}
+main h1{
+    text-align: center;
+    color: white;
+    font-family:"pixel";
+    font-weight: 100;
+    font-size: 70px;
+    padding: 20px;
+    position: relative;
+    top: 20px;
+}
+main .div-inputs{
+    height: 300px;
+    position: relative;
+    top: 150px;
+    left: 150px;
+    
+}
+main input{
+    font-size: 60px;
+    
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin: 60px;
+    float: left;
+    
+}
+
+#input-resultado{
+    position: relative;
+    left: 200px;
+}
+.div-sinais{
+    float: left;
+    display: grid;
+    align-items: center;
+    height: 200px;
+    margin: 60px;
+}
+.div-igual{
+    float: left;
+    position: relative;
+   top: 135px;
+   left: 70px;
+    
+}
+img{
+    width: 50px;
+    
+
+}
+.div-botoes{
+    clear: both;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    padding-top: 100px;
+    gap: 100px;
+    
+}   
+.div-botoes button{
+    
+    width: 100px;
+    height: 70px;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    background-color: wheat;
+    border-radius: 5px;
+}
+.div-botoes button:hover{
+    background-color: rgb(244, 237, 226);
+}
+
+.espacamento-maior{
+    margin-left: 250px;
+}
+
+@font-face {
+    font-family: "pixel";
+    src: url(fontes/04B_30__.TTF) format("truetype");
+}
+@font-face {
+    font-family: "pixel2";
+    src: url(fontes/Daydream.ttf) format("truetype");
+}
