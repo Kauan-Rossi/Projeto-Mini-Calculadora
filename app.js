@@ -13,28 +13,28 @@ function botaoAdicao(){
     conta= num1+num2;
     document.getElementById("mostrar-numero").value = conta;
     imagemSinais = document.getElementById("imagem-sinais")
-    imagemSinais.src="/imagens/imagemAdição.png"
+    imagemSinais.src="./imagens/imagemAdição.png"
 }
 function botaoSubtracao(){
     botoesConta()
     conta= num1-num2;
     document.getElementById("mostrar-numero").value = conta;
     imagemSinais = document.getElementById("imagem-sinais")
-    imagemSinais.src="/imagens/imagemSubtração.png"
+    imagemSinais.src="./imagens/imagemSubtração.png"
 }
 function botaoMultiplicacao(){
     botoesConta()
     conta= num1*num2;
     document.getElementById("mostrar-numero").value = conta;
     imagemSinais = document.getElementById("imagem-sinais")
-    imagemSinais.src="/imagens/imagemMultiplicação.png"
+    imagemSinais.src="./imagens/imagemMultiplicação.png"
 }
 function botaoDivisao(){
     botoesConta()
     conta= num1/num2;
     document.getElementById("mostrar-numero").value = conta;
     imagemSinais = document.getElementById("imagem-sinais")
-    imagemSinais.src="/imagens/imagemDivisão.png"
+    imagemSinais.src="./imagens/imagemDivisão.png"
 }
 
 
